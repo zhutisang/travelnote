@@ -21,19 +21,5 @@
         <span>John Leider</span>
       </v-btn>
     </v-app-bar>
-
-    <v-main>
-      <v-sheet border>
-        <v-container>
-          <section>
-            <h4 class="text-h4">Heading</h4>
-
-            <div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consectetur quos velit inventore optio omnis, tempora nam officia, labore quibusdam error facere ipsum iste temporibus laboriosam aliquam quia vitae magni.
-            </div>
-          </section>
-        </v-container>
-      </v-sheet>
-    </v-main>
   </v-layout>
 </template>
