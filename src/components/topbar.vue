@@ -1,5 +1,5 @@
 <template>
-  <v-layout>
+  <v-layout class="topbar-layout">
     <v-app-bar density="compact" absolute>
       <v-app-bar-title>Vuetify</v-app-bar-title>
 
@@ -23,3 +23,8 @@
     </v-app-bar>
   </v-layout>
 </template>
+<style lang="less" scoped>
+.topbar-layout{
+  max-height: 80px;
+}
+</style>

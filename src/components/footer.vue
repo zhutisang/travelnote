@@ -37,5 +37,9 @@
 <style lang="less" scoped>
 .domain-footer{
     flex:0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
 }
 </style>

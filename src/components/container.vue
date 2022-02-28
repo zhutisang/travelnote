@@ -8,9 +8,9 @@
       >
         <v-list>
           <v-list-item
-            prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg"
-            title="Sandra Adams"
-            subtitle="sandra_a88@gmailcom"
+            prepend-avatar="../assets/pictures/1.jpg"
+            title="zhutisang"
+            subtitle="13924680329"
           ></v-list-item>
         </v-list>
 
@@ -20,6 +20,7 @@
           <v-list-item prepend-icon="mdi-folder" title="My Files" value="myfiles"></v-list-item>
           <v-list-item prepend-icon="mdi-account-multiple" title="Shared with me" value="shared"></v-list-item>
           <v-list-item prepend-icon="mdi-star" title="Starred" value="starred"></v-list-item>
+          <v-list-item prepend-icon="home-assistant" title="Home" value="home"></v-list-item>
         </v-list>
       </v-navigation-drawer>
 
