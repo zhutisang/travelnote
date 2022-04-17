@@ -1,7 +1,7 @@
 <template>
-  <v-app>
+  <v-app class="app">
     <topbar />
-      <router-view/>
+      <router-view />
     <foot />
   </v-app>
 </template>
@@ -26,3 +26,15 @@ export default defineComponent({
   }
 })
 </script>
+<style lang="less">
+.app{
+  overflow-y: hidden;
+  ::-webkit-scrollbar{
+    width: 5px;
+    height: 14px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #b6b6b6;
+  }
+}
+</style>

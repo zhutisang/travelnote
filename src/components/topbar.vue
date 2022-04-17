@@ -1,30 +1,12 @@
 <template>
   <v-layout class="topbar-layout">
     <v-app-bar density="compact" absolute>
-      <v-app-bar-title>Vuetify</v-app-bar-title>
-
-      <v-spacer></v-spacer>
-
-      <v-btn text>Developer</v-btn>
-
-      <v-btn class="mr-3" text>Help</v-btn>
-
-      <v-divider inset vertical></v-divider>
-
-      <v-btn
-        class="mr-4 ml-5"
-        color="primary"
-        plain
-      >
-        <v-icon left icon="mdi-handshake-outline"></v-icon>
-
-        <span>John Leider</span>
-      </v-btn>
+      <v-app-bar-title>旅行笔记</v-app-bar-title>
     </v-app-bar>
   </v-layout>
 </template>
 <style lang="less" scoped>
-.topbar-layout{
-  max-height: 80px;
+.topbar-layout {
+  max-height: 49px;
 }
 </style>
